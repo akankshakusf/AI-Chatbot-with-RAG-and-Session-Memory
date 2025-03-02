@@ -1,4 +1,4 @@
-# 🧠 Advanced Conversational AI Chatbot with RAG and Session Memory
+# 🧠Conversational AI Chatbot with RAG and Session Memory
 
 ## 📌 Project Overview
 This project implements an **advanced AI-powered chatbot** that leverages **Retrieval-Augmented Generation (RAG)** to provide contextual responses with memory retention across conversations. Unlike standard chatbots, this implementation dynamically **remembers chat history**, **retrieves relevant information from uploaded PDFs**, and uses **state-of-the-art open-source models** for natural language understanding and response generation.
