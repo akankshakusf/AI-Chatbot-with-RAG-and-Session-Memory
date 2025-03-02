@@ -3,7 +3,7 @@
 ## 📌 Project Overview
 This project implements an **advanced AI-powered chatbot** that leverages **Retrieval-Augmented Generation (RAG)** to provide contextual responses with memory retention across conversations. Unlike standard chatbots, this implementation dynamically **remembers chat history**, **retrieves relevant information from uploaded PDFs**, and uses **state-of-the-art open-source models** for natural language understanding and response generation.
 
-The chatbot is built using **LangChain**, **FAISS**, **Hugging Face Transformers**, and the **Gemma 3B model**, with an option to utilize **Groq API-powered LLMs** for enhanced response generation.
+The chatbot is built using **LangChain** frame work, embedding is done through **Hugging Face Transformers** "all-MiniLM-L6-v2", storing vectors into  **FAISS**, and trained on **Gemma 3B LLM model** through **Groq API** for enhanced response generation.
 
 ---
 
@@ -27,10 +27,10 @@ The chatbot is built using **LangChain**, **FAISS**, **Hugging Face Transformers
 - **Query Understanding**: LangChain’s conversational memory and prompt engineering  
 
 ### **Frameworks & Libraries**
-- **LangChain**: Manages LLM interactions, document processing, and retrieval  
+- **LangChain**: Framework that Manages LLM interactions, document processing, and retrieval  
 - **FAISS**: Vector store for fast similarity search  
 - **Hugging Face Transformers**: Used for embeddings and model fine-tuning  
-- **Ollama**: Runs **Gemma 3B** locally for efficient inferencing  
+- **GroqAPI**: Runs **Gemma 3B** with efficient inferencing  
 - **Streamlit**: Builds the chatbot UI for seamless user interaction  
 
 ### **Backend & Data Processing**
